@@ -1,0 +1,22 @@
+{
+  "app": "node dist/index.js",
+  "requireApproval": "never",
+  "context": {
+    "systemPrefix": "template",
+    "systemName": "cdk",
+    "stage": "",
+    "Stack": {
+      "DeployBatch": {
+        "ecrRepositoryName": "",
+        "jobDefName": "",
+        "local": {
+          "cpu": 8,
+          "memory": 512
+        },
+        "dev": {},
+        "stg": {},
+        "prd": {}
+      }
+    }
+  }
+}
